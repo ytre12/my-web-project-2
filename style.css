@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Datatype';
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3 {
+    font-family: 'Bitcount Prop Double Ink', sans-serif;
+    line-height: 1.2;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    width: 80%;
+    max-width: 600px;
+}
+
+main {
+    max-width: 70ch;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a:focus {
+    outline: 3px solid #000;
+    outline-offset: 2px;
+}
+
+button {
+  color: #090909a2;
+  font-family: 'Datatype';
+  padding: 0.4em 1.0em;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
